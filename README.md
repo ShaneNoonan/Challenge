@@ -1,2 +1,0 @@
-# Challenge
-Autotest Challenge
