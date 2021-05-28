@@ -10,7 +10,21 @@ Assert Incorrect String Input Type Message
     Given I open a headless browser
     When I navigate to the Factorial website
     And I enter the interger abc and Select Calculate
-    Then I should see the correct result for abc
+    Then I should see the correct result for 'abc'
+
+Assert Incorrect Special Character Input Type Message
+   [Tags]  Frontend Tests
+    Given I open a headless browser
+    When I navigate to the Factorial website
+    And I enter the interger !@% and Select Calculate
+    Then I should see the correct result for '!@%'
+
+Assert Incorrect E Value Input Type Message
+   [Tags]  Frontend Tests
+    Given I open a headless browser
+    When I navigate to the Factorial website
+    And I enter the interger 100e+2 and Select Calculate
+    Then I should see the correct result for '100e+2'
 
 Assert Incorrect Decimal Input Type Message
    [Tags]  Frontend Tests
@@ -44,7 +58,7 @@ Assert Factorial of +101
    [Tags]  Frontend Tests
     Given I open a headless browser
     When I navigate to the Factorial website
-    And I enter the interger +100 and Select Calculate
+    And I enter the interger +101 and Select Calculate
     Then I should see the correct result for +101
 
 Assert Factorial of 200

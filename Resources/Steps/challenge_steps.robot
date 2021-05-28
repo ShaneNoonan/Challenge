@@ -27,7 +27,10 @@ I enter the interger ${integer} and Select Calculate
     log to console  ${integer}
 
 I should see the correct result for ${integer}
-    Run Keyword If  ${integer}== abc         Assert Results for invalid value
+    Run Keyword If  ${integer}== 'abc'       Assert Results for invalid value
+    ...   ELSE IF   ${integer}== '!@%'       Assert Results for invalid value
+    ...   ELSE IF   ${integer}== '100e+2'    Assert Results for invalid value
+    ...   ELSE IF   ${integer}== -2          Assert Results for invalid value
     ...   ELSE IF   ${integer}== -2          Assert Results for invalid value
     ...   ELSE IF   ${integer}== 0.2         Assert Results for invalid value
     ...   ELSE IF   ${integer}== 0           Assert Results for value 0

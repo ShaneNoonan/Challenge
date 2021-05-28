@@ -30,22 +30,7 @@ Assert Valid API Response For Input 1000
    Given I create a session on API for 1000
    Then I should see a valid response with an answer
 
-Assert Valid API Response For Input !@%
-   [Tags]  API Tests
-   Given I create a session on API for !@%
-   Then I should see a valid response with an answer
-
-Assert Valid API Response For Input 100e+2
-   [Tags]  API Tests
-   Given I create a session on API for 100e+2
-   Then I should see a valid response with an answer
-
 Assert Valid API Response For Input +101
    [Tags]  API Tests
    Given I create a session on API for +101
-   Then I should see a valid response with an answer
-
-Assert Valid API Response For Input 12fr11
-   [Tags]  API Tests
-   Given I create a session on API for 12fr11
    Then I should see a valid response with an answer
