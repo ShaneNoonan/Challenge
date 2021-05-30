@@ -20,7 +20,6 @@ Privacy link goes to http://qainterview.pythonanywhere.com/terms</li>
 </ul>
 
 To run all tests in cmd: python -m robot --outputdir results Tests  
-Result files from last run can be found in Results folder
 
 <h2>Manual Tests</h2>
 Manual tests carried out across multiple browsers on desktop 1920px to 1024px (Chrome 90, Firefox 88, Safari 14, MS Edge 90) and Mobile/Tablet devices, iOS and Android, resolutions from 320px to 780px (Safari, Chrome and Android Browser).
