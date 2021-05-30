@@ -2,6 +2,7 @@
 <ul>
   <li>Page meta title is spelt wrong i.e "Factoriall" should be spelt "Factorial"</li>
   <li>Also meta description is missing, maybe needed for SEO purposes</li>
+  <li>Bit unusual to have current date year twice in the footer</li>
   <li>Placeholder text should probably read "Enter a positive integer" as factorials cannot be calculated with negitive values</li>
   <li>Terms and conditions link and Privacy links are back the front :
 Terms and conditions link goes to http://qainterview.pythonanywhere.com - privacy
