@@ -18,7 +18,7 @@ Privacy link goes to http://qainterview.pythonanywhere.com/terms</li>
  <li> Some tests fail due to bugs found (These are commented in the test files).</li>
 </ul>
 
-To run all tests in cmd: python -m robot --outputdir results Tests
+To run all tests in cmd: python -m robot --outputdir results Tests  
 Result files from last run can be found in Results folder
 
 <h2>Manual Tests</h2>
